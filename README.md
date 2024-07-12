@@ -142,16 +142,16 @@ The [dev release of the search_api module](https://www.drupal.org/project/search
 
 ## Block placement
 
-When using a theme other than the default LocalGov Base or LocalGov Scarfolk, the
-**Directory channel search** (machine id: localgov_directories_channel_search_block),
-**Directory facets** (machine id: facet_block:localgov_directories_facets) and
-**Directory facets for proximity search** (machine id: facet_block:localgov_directories_facets_proximity_search)
-blocks should be made visible for the **Directory Channel** content type.
+When using a theme other than the default LocalGov Base or LocalGov Scarfolk, the following blocks should be made visible for the **Directory Channel** content type.
+- **Directory channel search** (machine id: localgov_directories_channel_search_block),
+- **Directory facets** (machine id: facet_block:localgov_directories_facets) and
+- **Directory facets for proximity search** (machine id: facet_block:localgov_directories_facets_proximity_search)
+
 They can be added to a sidebar region (or equivalent) of the site theme.
 
-Note that the facet_block:localgov_directories_facets block becomes available only
-after you have created at least one Directory entry content type.  On the other
-hand the facet_block:localgov_directories_facets_proximity_search block becomes
+**Note** The facet_block:localgov_directories_facets block becomes available only
+after you have created at least one Directory entry content type.  
+**Note** The facet_block:localgov_directories_facets_proximity_search block becomes
 available when a Directory entry content type with a localgov_location field is
 created (e.g. localgov_directories_venue).
 
